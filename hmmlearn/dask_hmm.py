@@ -7,7 +7,7 @@ The :mod:`hmmlearn.dask_hmm` module implements hidden Markov models with Dask su
 import numpy as np
 from scipy.misc import logsumexp
 from sklearn import cluster
-from sklearn.mixture import _validate_covars
+#from sklearn.mixture import _validate_covars
 from sklearn.utils import check_array, check_random_state
 from sklearn.utils.validation import check_is_fitted
 
